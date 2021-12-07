@@ -1,0 +1,535 @@
+      
+      
+      *******************
+      MAZE SOLVER RESULTS
+      *******************
+      
+      Attempt runtime: 6.12.2021 21.02.59
+      Maze name: maze-task-first.txt
+      Dimensions: Height - 19, Width - 37
+      Start location at 19-19
+      Exit(s) located at 08-01, 17-01, 37-02
+      
+      
+      
+      
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      FAILURE! Pentti could not escape the maze in 20 turns and has died a slow and agonizing death!
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      
+      #######E########E####################
+      # ### #   ###### #    #     #     # E
+      # ### ### #      #  #    #     #    #
+      # ### # # # ###### ##################
+      #            #       #    #   #   # #
+      #  # ##      # ##### #  # # # # # # #
+      #  #         #   #   #  # # # # #   #
+      #  ######   ###  #  ### # # # # ### #
+      #  #    #               #   #   #   #
+      #  # ## ########   ## ###########   #
+      #    ##          ###                #
+      # ## #############  ###   ####   ## #
+      #  ### ##         #  #  #           #
+      #  #   ## ####     #    #      ###  #
+      #  # #### #  #     #    #####       #
+      #  #      #   111###           ##   #
+      #  ##### X2   1111 #   ##   #   #   #
+      #         222221111                 #
+      ##################O##################
+      Maximum turns to escape: 20
+      
+      
+      Legend:
+      X = End of movement       O = Starting point (can be overwritten if Pentti moves through it)
+      # = Wall                  Numbers 1-9 = Order of movement
+      Numbers start from 1, grow by 1 every time Pentti starts a new path after backtracking. Loop back to 1 after 9.
+      
+      
+      
+      
+      
+      
+      
+      ********************************
+      ACTIONS DONE BY PENTTI EACH TURN
+      ********************************
+      
+      Turn 1: Moved north from 19-19 to 19-18
+      Turn 2: Moved west from 19-18 to 18-18
+      Turn 3: Moved north from 18-18 to 18-17
+      Turn 4: Moved west from 18-17 to 17-17
+      Turn 5: Moved north from 17-17 to 17-16
+      Turn 6: Moved west from 17-16 to 16-16
+      Turn 7: Moved west from 16-16 to 15-16
+      Turn 8: Moved south from 15-16 to 15-17
+      Turn 9: Moved east from 15-17 to 16-17
+      Turn 10: Moved south from 16-17 to 16-18
+      Turn 11: Moved east from 16-18 to 17-18
+      Turn 12: Backtracked east from 17-18 to 16-18
+      Turn 13: Moved west from 16-18 to 15-18
+      Turn 14: Moved west from 15-18 to 14-18
+      Turn 15: Moved west from 14-18 to 13-18
+      Turn 16: Moved west from 13-18 to 12-18
+      Turn 17: Moved west from 12-18 to 11-18
+      Turn 18: Moved north from 11-18 to 11-17
+      Turn 19: Moved west from 11-17 to 10-17
+      Turn 20: Moved north from 10-17 to 10-16
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      FAILURE! Pentti could not escape the maze in 150 turns and has died a slow and agonizing death!
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      
+      #######E########E####################
+      # ### #   ###### #    #     #     # E
+      # ### ### #      #  #    #     #    #
+      # ### # # # ###### ##################
+      #            #       # 999#999#999# #
+      #  # ##      # ##### #X9#9#9#9#9#9# #
+      #  #         #   #   #  #9#9#9#9#999#
+      #  ######   ###  #  ### #9#9#9#9###9#
+      #  #    #               #999#999#  9#
+      #  # ## ########   ## ###########  9#
+      #    ##          ###   1166666677  9#
+      # ## #############  ###111####677##9#
+      #  ### ##         #  # 1#11155577888#
+      #  #   ## ####     #  11#111115###88#
+      #  # #### #  #     #  11#####1444488#
+      #  #      #      ###  111111114##333#
+      #  #####           #111##211#33 #333#
+      #                 111222223333333333#
+      ##################O##################
+      Maximum turns to escape: 150
+      
+      
+      Legend:
+      X = End of movement       O = Starting point (can be overwritten if Pentti moves through it)
+      # = Wall                  Numbers 1-9 = Order of movement
+      Numbers start from 1, grow by 1 every time Pentti starts a new path after backtracking. Loop back to 1 after 9.
+      
+      
+      
+      
+      
+      
+      
+      ********************************
+      ACTIONS DONE BY PENTTI EACH TURN
+      ********************************
+      
+      Turn 1: Moved north from 19-19 to 19-18
+      Turn 2: Moved east from 19-18 to 20-18
+      Turn 3: Moved east from 20-18 to 21-18
+      Turn 4: Moved north from 21-18 to 21-17
+      Turn 5: Moved east from 21-17 to 22-17
+      Turn 6: Moved east from 22-17 to 23-17
+      Turn 7: Moved north from 23-17 to 23-16
+      Turn 8: Moved north from 23-16 to 23-15
+      Turn 9: Moved north from 23-15 to 23-14
+      Turn 10: Moved east from 23-14 to 24-14
+      Turn 11: Moved north from 24-14 to 24-13
+      Turn 12: Moved north from 24-13 to 24-12
+      Turn 13: Moved north from 24-12 to 24-11
+      Turn 14: Moved east from 24-11 to 25-11
+      Turn 15: Moved south from 25-11 to 25-12
+      Turn 16: Moved east from 25-12 to 26-12
+      Turn 17: Moved south from 26-12 to 26-13
+      Turn 18: Moved south from 26-13 to 26-14
+      Turn 19: Moved east from 26-14 to 27-14
+      Turn 20: Moved north from 27-14 to 27-13
+      Turn 21: Moved east from 27-13 to 28-13
+      Turn 22: Moved south from 28-13 to 28-14
+      Turn 23: Moved east from 28-14 to 29-14
+      Turn 24: Moved east from 29-14 to 30-14
+      Turn 25: Moved south from 30-14 to 30-15
+      Turn 26: Moved south from 30-15 to 30-16
+      Turn 27: Moved west from 30-16 to 29-16
+      Turn 28: Moved west from 29-16 to 28-16
+      Turn 29: Moved south from 28-16 to 28-17
+      Turn 30: Moved west from 28-17 to 27-17
+      Turn 31: Moved north from 27-17 to 27-16
+      Turn 32: Moved west from 27-16 to 26-16
+      Turn 33: Moved west from 26-16 to 25-16
+      Turn 34: Moved west from 25-16 to 24-16
+      Turn 35: Moved north from 24-16 to 24-15
+      Turn 36: Backtracked north from 24-15 to 24-16
+      Turn 37: Backtracked west from 24-16 to 25-16
+      Turn 38: Backtracked west from 25-16 to 26-16
+      Turn 39: Moved south from 26-16 to 26-17
+      Turn 40: Moved south from 26-17 to 26-18
+      Turn 41: Moved west from 26-18 to 25-18
+      Turn 42: Moved west from 25-18 to 24-18
+      Turn 43: Moved west from 24-18 to 23-18
+      Turn 44: Moved west from 23-18 to 22-18
+      Turn 45: Backtracked west from 22-18 to 23-18
+      Turn 46: Backtracked west from 23-18 to 24-18
+      Turn 47: Backtracked west from 24-18 to 25-18
+      Turn 48: Backtracked west from 25-18 to 26-18
+      Turn 49: Moved east from 26-18 to 27-18
+      Turn 50: Moved east from 27-18 to 28-18
+      Turn 51: Moved east from 28-18 to 29-18
+      Turn 52: Moved east from 29-18 to 30-18
+      Turn 53: Moved north from 30-18 to 30-17
+      Turn 54: Moved east from 30-17 to 31-17
+      Turn 55: Moved south from 31-17 to 31-18
+      Turn 56: Moved east from 31-18 to 32-18
+      Turn 57: Moved east from 32-18 to 33-18
+      Turn 58: Moved east from 33-18 to 34-18
+      Turn 59: Moved east from 34-18 to 35-18
+      Turn 60: Moved east from 35-18 to 36-18
+      Turn 61: Moved north from 36-18 to 36-17
+      Turn 62: Moved north from 36-17 to 36-16
+      Turn 63: Moved west from 36-16 to 35-16
+      Turn 64: Moved west from 35-16 to 34-16
+      Turn 65: Moved south from 34-16 to 34-17
+      Turn 66: Moved east from 34-17 to 35-17
+      Turn 67: Backtracked east from 35-17 to 34-17
+      Turn 68: Backtracked south from 34-17 to 34-16
+      Turn 69: Moved north from 34-16 to 34-15
+      Turn 70: Moved west from 34-15 to 33-15
+      Turn 71: Moved west from 33-15 to 32-15
+      Turn 72: Moved west from 32-15 to 31-15
+      Turn 73: Moved south from 31-15 to 31-16
+      Turn 74: Backtracked south from 31-16 to 31-15
+      Turn 75: Moved north from 31-15 to 31-14
+      Turn 76: Moved north from 31-14 to 31-13
+      Turn 77: Moved west from 31-13 to 30-13
+      Turn 78: Moved west from 30-13 to 29-13
+      Turn 79: Backtracked west from 29-13 to 30-13
+      Turn 80: Backtracked west from 30-13 to 31-13
+      Turn 81: Moved north from 31-13 to 31-12
+      Turn 82: Moved north from 31-12 to 31-11
+      Turn 83: Moved west from 31-11 to 30-11
+      Turn 84: Moved west from 30-11 to 29-11
+      Turn 85: Moved west from 29-11 to 28-11
+      Turn 86: Moved west from 28-11 to 27-11
+      Turn 87: Moved west from 27-11 to 26-11
+      Turn 88: Backtracked west from 26-11 to 27-11
+      Turn 89: Backtracked west from 27-11 to 28-11
+      Turn 90: Backtracked west from 28-11 to 29-11
+      Turn 91: Backtracked west from 29-11 to 30-11
+      Turn 92: Backtracked west from 30-11 to 31-11
+      Turn 93: Moved east from 31-11 to 32-11
+      Turn 94: Moved east from 32-11 to 33-11
+      Turn 95: Moved south from 33-11 to 33-12
+      Turn 96: Moved south from 33-12 to 33-13
+      Turn 97: Moved west from 33-13 to 32-13
+      Turn 98: Moved north from 32-13 to 32-12
+      Turn 99: Backtracked north from 32-12 to 32-13
+      Turn 100: Backtracked west from 32-13 to 33-13
+      Turn 101: Moved east from 33-13 to 34-13
+      Turn 102: Moved east from 34-13 to 35-13
+      Turn 103: Moved east from 35-13 to 36-13
+      Turn 104: Moved south from 36-13 to 36-14
+      Turn 105: Moved south from 36-14 to 36-15
+      Turn 106: Moved west from 36-15 to 35-15
+      Turn 107: Moved north from 35-15 to 35-14
+      Turn 108: Backtracked north from 35-14 to 35-15
+      Turn 109: Backtracked west from 35-15 to 36-15
+      Turn 110: Backtracked south from 36-15 to 36-14
+      Turn 111: Backtracked south from 36-14 to 36-13
+      Turn 112: Moved north from 36-13 to 36-12
+      Turn 113: Moved north from 36-12 to 36-11
+      Turn 114: Moved north from 36-11 to 36-10
+      Turn 115: Moved north from 36-10 to 36-09
+      Turn 116: Moved north from 36-09 to 36-08
+      Turn 117: Moved north from 36-08 to 36-07
+      Turn 118: Moved west from 36-07 to 35-07
+      Turn 119: Moved west from 35-07 to 34-07
+      Turn 120: Moved north from 34-07 to 34-06
+      Turn 121: Moved north from 34-06 to 34-05
+      Turn 122: Moved west from 34-05 to 33-05
+      Turn 123: Moved west from 33-05 to 32-05
+      Turn 124: Moved south from 32-05 to 32-06
+      Turn 125: Moved south from 32-06 to 32-07
+      Turn 126: Moved south from 32-07 to 32-08
+      Turn 127: Moved south from 32-08 to 32-09
+      Turn 128: Moved west from 32-09 to 31-09
+      Turn 129: Moved west from 31-09 to 30-09
+      Turn 130: Moved north from 30-09 to 30-08
+      Turn 131: Moved north from 30-08 to 30-07
+      Turn 132: Moved north from 30-07 to 30-06
+      Turn 133: Moved north from 30-06 to 30-05
+      Turn 134: Moved west from 30-05 to 29-05
+      Turn 135: Moved west from 29-05 to 28-05
+      Turn 136: Moved south from 28-05 to 28-06
+      Turn 137: Moved south from 28-06 to 28-07
+      Turn 138: Moved south from 28-07 to 28-08
+      Turn 139: Moved south from 28-08 to 28-09
+      Turn 140: Moved west from 28-09 to 27-09
+      Turn 141: Moved west from 27-09 to 26-09
+      Turn 142: Moved north from 26-09 to 26-08
+      Turn 143: Moved north from 26-08 to 26-07
+      Turn 144: Moved north from 26-07 to 26-06
+      Turn 145: Moved north from 26-06 to 26-05
+      Turn 146: Moved west from 26-05 to 25-05
+      Turn 147: Moved west from 25-05 to 24-05
+      Turn 148: Moved south from 24-05 to 24-06
+      Turn 149: Moved west from 24-06 to 23-06
+      Turn 150: Moved north from 23-06 to 23-05
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      FAILURE! Pentti could not escape the maze in 200 turns and has died a slow and agonizing death!
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      
+      #######E########E####################
+      # ### #   ###### #    #     #     # E
+      # ### ### #      #  #    #     #    #
+      # ### # # # ###### ##################
+      #            #       #3333#333#333#3#
+      #  # ##      # ##### #33#3#3#3#3#3#3#
+      #  #         #   #   #63#3#3#3#3#333#
+      #  ######   ###  #44###3#3#3#3#3###2#
+      #  #4444#         444333#333#333#722#
+      #  #X##4########444##6###########221#
+      #    ##4444444444###5555555555599222#
+      # ## #############  ###   ####558##2#
+      #  ### ##         #  #  #      55544#
+      #  #   ## ####     #    #      ###44#
+      #  # #### #  #     #    #####     33#
+      #  #      #      ###       1111## 33#
+      #  #####           #   ## 11#112#333#
+      #                 111111111111223333#
+      ##################O##################
+      Maximum turns to escape: 200
+      
+      
+      Legend:
+      X = End of movement       O = Starting point (can be overwritten if Pentti moves through it)
+      # = Wall                  Numbers 1-9 = Order of movement
+      Numbers start from 1, grow by 1 every time Pentti starts a new path after backtracking. Loop back to 1 after 9.
+      
+      
+      
+      
+      
+      
+      
+      ********************************
+      ACTIONS DONE BY PENTTI EACH TURN
+      ********************************
+      
+      Turn 1: Moved north from 19-19 to 19-18
+      Turn 2: Moved east from 19-18 to 20-18
+      Turn 3: Moved east from 20-18 to 21-18
+      Turn 4: Moved east from 21-18 to 22-18
+      Turn 5: Moved east from 22-18 to 23-18
+      Turn 6: Moved east from 23-18 to 24-18
+      Turn 7: Moved east from 24-18 to 25-18
+      Turn 8: Moved east from 25-18 to 26-18
+      Turn 9: Moved east from 26-18 to 27-18
+      Turn 10: Moved north from 27-18 to 27-17
+      Turn 11: Moved east from 27-17 to 28-17
+      Turn 12: Moved north from 28-17 to 28-16
+      Turn 13: Moved east from 28-16 to 29-16
+      Turn 14: Moved east from 29-16 to 30-16
+      Turn 15: Moved east from 30-16 to 31-16
+      Turn 16: Moved south from 31-16 to 31-17
+      Turn 17: Moved west from 31-17 to 30-17
+      Turn 18: Moved south from 30-17 to 30-18
+      Turn 19: Moved west from 30-18 to 29-18
+      Turn 20: Moved west from 29-18 to 28-18
+      Turn 21: Backtracked west from 28-18 to 29-18
+      Turn 22: Backtracked west from 29-18 to 30-18
+      Turn 23: Moved east from 30-18 to 31-18
+      Turn 24: Moved east from 31-18 to 32-18
+      Turn 25: Moved north from 32-18 to 32-17
+      Turn 26: Backtracked north from 32-17 to 32-18
+      Turn 27: Moved east from 32-18 to 33-18
+      Turn 28: Moved east from 33-18 to 34-18
+      Turn 29: Moved north from 34-18 to 34-17
+      Turn 30: Moved east from 34-17 to 35-17
+      Turn 31: Moved north from 35-17 to 35-16
+      Turn 32: Moved north from 35-16 to 35-15
+      Turn 33: Moved east from 35-15 to 36-15
+      Turn 34: Moved south from 36-15 to 36-16
+      Turn 35: Moved south from 36-16 to 36-17
+      Turn 36: Moved south from 36-17 to 36-18
+      Turn 37: Moved west from 36-18 to 35-18
+      Turn 38: Backtracked west from 35-18 to 36-18
+      Turn 39: Backtracked south from 36-18 to 36-17
+      Turn 40: Backtracked south from 36-17 to 36-16
+      Turn 41: Backtracked south from 36-16 to 36-15
+      Turn 42: Moved north from 36-15 to 36-14
+      Turn 43: Moved north from 36-14 to 36-13
+      Turn 44: Moved west from 36-13 to 35-13
+      Turn 45: Moved south from 35-13 to 35-14
+      Turn 46: Backtracked south from 35-14 to 35-13
+      Turn 47: Moved west from 35-13 to 34-13
+      Turn 48: Moved west from 34-13 to 33-13
+      Turn 49: Moved west from 33-13 to 32-13
+      Turn 50: Moved north from 32-13 to 32-12
+      Turn 51: Moved west from 32-12 to 31-12
+      Turn 52: Moved north from 31-12 to 31-11
+      Turn 53: Moved west from 31-11 to 30-11
+      Turn 54: Moved west from 30-11 to 29-11
+      Turn 55: Moved west from 29-11 to 28-11
+      Turn 56: Moved west from 28-11 to 27-11
+      Turn 57: Moved west from 27-11 to 26-11
+      Turn 58: Moved west from 26-11 to 25-11
+      Turn 59: Moved west from 25-11 to 24-11
+      Turn 60: Moved west from 24-11 to 23-11
+      Turn 61: Moved west from 23-11 to 22-11
+      Turn 62: Moved west from 22-11 to 21-11
+      Turn 63: Backtracked west from 21-11 to 22-11
+      Turn 64: Moved north from 22-11 to 22-10
+      Turn 65: Moved north from 22-10 to 22-09
+      Turn 66: Moved east from 22-09 to 23-09
+      Turn 67: Moved east from 23-09 to 24-09
+      Turn 68: Moved north from 24-09 to 24-08
+      Turn 69: Moved north from 24-08 to 24-07
+      Turn 70: Moved north from 24-07 to 24-06
+      Turn 71: Moved west from 24-06 to 23-06
+      Turn 72: Moved south from 23-06 to 23-07
+      Turn 73: Backtracked south from 23-07 to 23-06
+      Turn 74: Moved north from 23-06 to 23-05
+      Turn 75: Moved east from 23-05 to 24-05
+      Turn 76: Moved east from 24-05 to 25-05
+      Turn 77: Moved east from 25-05 to 26-05
+      Turn 78: Moved south from 26-05 to 26-06
+      Turn 79: Moved south from 26-06 to 26-07
+      Turn 80: Moved south from 26-07 to 26-08
+      Turn 81: Moved south from 26-08 to 26-09
+      Turn 82: Moved east from 26-09 to 27-09
+      Turn 83: Moved east from 27-09 to 28-09
+      Turn 84: Moved north from 28-09 to 28-08
+      Turn 85: Moved north from 28-08 to 28-07
+      Turn 86: Moved north from 28-07 to 28-06
+      Turn 87: Moved north from 28-06 to 28-05
+      Turn 88: Moved east from 28-05 to 29-05
+      Turn 89: Moved east from 29-05 to 30-05
+      Turn 90: Moved south from 30-05 to 30-06
+      Turn 91: Moved south from 30-06 to 30-07
+      Turn 92: Moved south from 30-07 to 30-08
+      Turn 93: Moved south from 30-08 to 30-09
+      Turn 94: Moved east from 30-09 to 31-09
+      Turn 95: Moved east from 31-09 to 32-09
+      Turn 96: Moved north from 32-09 to 32-08
+      Turn 97: Moved north from 32-08 to 32-07
+      Turn 98: Moved north from 32-07 to 32-06
+      Turn 99: Moved north from 32-06 to 32-05
+      Turn 100: Moved east from 32-05 to 33-05
+      Turn 101: Moved east from 33-05 to 34-05
+      Turn 102: Moved south from 34-05 to 34-06
+      Turn 103: Moved south from 34-06 to 34-07
+      Turn 104: Moved east from 34-07 to 35-07
+      Turn 105: Moved east from 35-07 to 36-07
+      Turn 106: Moved south from 36-07 to 36-08
+      Turn 107: Moved south from 36-08 to 36-09
+      Turn 108: Moved west from 36-09 to 35-09
+      Turn 109: Moved south from 35-09 to 35-10
+      Turn 110: Moved west from 35-10 to 34-10
+      Turn 111: Moved north from 34-10 to 34-09
+      Turn 112: Backtracked north from 34-09 to 34-10
+      Turn 113: Moved south from 34-10 to 34-11
+      Turn 114: Moved west from 34-11 to 33-11
+      Turn 115: Moved south from 33-11 to 33-12
+      Turn 116: Backtracked south from 33-12 to 33-11
+      Turn 117: Moved west from 33-11 to 32-11
+      Turn 118: Backtracked west from 32-11 to 33-11
+      Turn 119: Backtracked west from 33-11 to 34-11
+      Turn 120: Moved east from 34-11 to 35-11
+      Turn 121: Moved east from 35-11 to 36-11
+      Turn 122: Moved north from 36-11 to 36-10
+      Turn 123: Backtracked north from 36-10 to 36-11
+      Turn 124: Moved south from 36-11 to 36-12
+      Turn 125: Backtracked south from 36-12 to 36-11
+      Turn 126: Backtracked east from 36-11 to 35-11
+      Turn 127: Backtracked east from 35-11 to 34-11
+      Turn 128: Backtracked south from 34-11 to 34-10
+      Turn 129: Backtracked west from 34-10 to 35-10
+      Turn 130: Backtracked south from 35-10 to 35-09
+      Turn 131: Backtracked west from 35-09 to 36-09
+      Turn 132: Backtracked south from 36-09 to 36-08
+      Turn 133: Backtracked south from 36-08 to 36-07
+      Turn 134: Moved north from 36-07 to 36-06
+      Turn 135: Moved north from 36-06 to 36-05
+      Turn 136: Backtracked north from 36-05 to 36-06
+      Turn 137: Backtracked north from 36-06 to 36-07
+      Turn 138: Backtracked east from 36-07 to 35-07
+      Turn 139: Backtracked east from 35-07 to 34-07
+      Turn 140: Backtracked south from 34-07 to 34-06
+      Turn 141: Backtracked south from 34-06 to 34-05
+      Turn 142: Backtracked east from 34-05 to 33-05
+      Turn 143: Backtracked east from 33-05 to 32-05
+      Turn 144: Backtracked north from 32-05 to 32-06
+      Turn 145: Backtracked north from 32-06 to 32-07
+      Turn 146: Backtracked north from 32-07 to 32-08
+      Turn 147: Backtracked north from 32-08 to 32-09
+      Turn 148: Backtracked east from 32-09 to 31-09
+      Turn 149: Backtracked east from 31-09 to 30-09
+      Turn 150: Backtracked south from 30-09 to 30-08
+      Turn 151: Backtracked south from 30-08 to 30-07
+      Turn 152: Backtracked south from 30-07 to 30-06
+      Turn 153: Backtracked south from 30-06 to 30-05
+      Turn 154: Backtracked east from 30-05 to 29-05
+      Turn 155: Backtracked east from 29-05 to 28-05
+      Turn 156: Backtracked north from 28-05 to 28-06
+      Turn 157: Backtracked north from 28-06 to 28-07
+      Turn 158: Backtracked north from 28-07 to 28-08
+      Turn 159: Backtracked north from 28-08 to 28-09
+      Turn 160: Backtracked east from 28-09 to 27-09
+      Turn 161: Backtracked east from 27-09 to 26-09
+      Turn 162: Backtracked south from 26-09 to 26-08
+      Turn 163: Backtracked south from 26-08 to 26-07
+      Turn 164: Backtracked south from 26-07 to 26-06
+      Turn 165: Backtracked south from 26-06 to 26-05
+      Turn 166: Backtracked east from 26-05 to 25-05
+      Turn 167: Backtracked east from 25-05 to 24-05
+      Turn 168: Backtracked east from 24-05 to 23-05
+      Turn 169: Backtracked north from 23-05 to 23-06
+      Turn 170: Backtracked west from 23-06 to 24-06
+      Turn 171: Backtracked north from 24-06 to 24-07
+      Turn 172: Backtracked north from 24-07 to 24-08
+      Turn 173: Backtracked north from 24-08 to 24-09
+      Turn 174: Backtracked east from 24-09 to 23-09
+      Turn 175: Backtracked east from 23-09 to 22-09
+      Turn 176: Moved west from 22-09 to 21-09
+      Turn 177: Moved west from 21-09 to 20-09
+      Turn 178: Moved north from 20-09 to 20-08
+      Turn 179: Moved west from 20-08 to 19-08
+      Turn 180: Moved south from 19-08 to 19-09
+      Turn 181: Moved south from 19-09 to 19-10
+      Turn 182: Moved west from 19-10 to 18-10
+      Turn 183: Moved west from 18-10 to 17-10
+      Turn 184: Moved south from 17-10 to 17-11
+      Turn 185: Moved west from 17-11 to 16-11
+      Turn 186: Moved west from 16-11 to 15-11
+      Turn 187: Moved west from 15-11 to 14-11
+      Turn 188: Moved west from 14-11 to 13-11
+      Turn 189: Moved west from 13-11 to 12-11
+      Turn 190: Moved west from 12-11 to 11-11
+      Turn 191: Moved west from 11-11 to 10-11
+      Turn 192: Moved west from 10-11 to 09-11
+      Turn 193: Moved west from 09-11 to 08-11
+      Turn 194: Moved north from 08-11 to 08-10
+      Turn 195: Moved north from 08-10 to 08-09
+      Turn 196: Moved west from 08-09 to 07-09
+      Turn 197: Moved west from 07-09 to 06-09
+      Turn 198: Moved west from 06-09 to 05-09
+      Turn 199: Moved south from 05-09 to 05-10
+      Turn 200: Moved south from 05-10 to 05-11
+      
+      
+      
+      
+      
+      
+      
+      
+      
